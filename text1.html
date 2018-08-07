@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<XML id="dsoTeacher" src="01.xml">
+</XML>
+<html>
+<meta content="text/html/XML"  charset="utf-8">
+<body>
+
+	<table>
+	<tr><td>รหัส<br></td><td><SPAN datasrc="#dsoTeacher" datafld="id"></td></tr>
+	<tr><td>ชื่อ<br></td><td><SPAN datasrc="#dsoTeacher" datafld="name"></td></tr>
+	<tr><td>นามสกุล<br></td><td><SPAN datasrc="#dsoTeacher" datafld="lname"></td></tr>
+	<tr><td>อายุ<br></td><td><SPAN datasrc="#dsoTeacher" datafld="age"></td></tr>
+	<tr><td>เพศ<br></td><td><SPAN datasrc="#dsoTeacher" datafld="sex"></td></tr>
+	<tr><td>เบอร์โทรศัพท์<br></td><td><SPAN datasrc="#dsoTeacher" datafld="tel"></td></tr>
+	</table>
+	<form>
+	<input type="button" value="ก่อนหน้า" onClick="dsoTeacher.recordset.movePrevious()
+		if(dsoTeacher.recordset.BOF)dsoTeacher.recordset.moveFirst();">
+
+	<input type="button" value="ถัดไป" onClick="dsoTeacher.recordset.moveNext()
+		if(dsoTeacher.recordset.EOF)dsoTeacher.recordset.moveLast();">
+	</form>
+	
+
+</body>
+</html>

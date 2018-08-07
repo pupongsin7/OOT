@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<teacher>
+	<people>
+		<id>001</id>
+		<name>ณัฐ</name>
+		<lname>Phupongsin</lname>
+		<age>21</age>
+		<sex>Male</sex>
+		<tel>083-9961850</tel>
+	</people>
+	<people>
+		<id>002</id>
+		<name>บีมมม</name>
+		<lname>บล่ๆๆ</lname>
+		<age>20</age>
+		<sex>Male</sex>
+		<tel>083-9961850</tel>
+	</people>
+	<people>
+		<id>003</id>
+		<name>หกหฟ</name>
+		<lname>กหกหn</lname>
+		<age>21</age>
+		<sex>Male</sex>
+		<tel>083-9961850</tel>
+	</people>
+</teacher>
